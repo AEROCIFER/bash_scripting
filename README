@@ -1,0 +1,58 @@
+# Bash Scripting Repository
+
+This repository contains a collection of Bash scripts demonstrating various scripting techniques, utilities, and examples. It is designed for both beginners and intermediate users interested in learning or referencing Bash scripting.
+
+## Contents
+
+- **Basic loops and control structures**  
+- **Client-server communication demos with netcat**  
+- **Script examples with argument handling**  
+- Other useful Bash utilities and snippets  
+
+## Getting Started
+
+To use any script, first ensure you have Bash and `nc` (netcat) installed on your system. The scripts are intended to run on Unix-like operating systems including Linux and macOS.
+
+### How to run scripts
+
+1. Clone the repository:
+    git clone https://github.com/AEROCIFER/bash_scripting.git
+    cd bash_scripting
+
+2. Make the script executable (if needed):
+    chmod +x script_name.sh
+
+
+3. Run the script:
+    ./script_name.sh [arguments]
+
+
+Adjust `[arguments]` based on each script’s requirements.
+
+## Example
+
+A simple loop script might be run with:
+
+./loop_demo.sh 10 3
+
+    Where `10` is the number of iterations and `3` is a number to print each iteration.
+
+## Features
+
+- Handles script arguments with validation  
+- Demonstrates different loop types (`for`, `while`, C-style)  
+- Shows basic client-server interaction using Bash and netcat  
+- Includes connection detection logic in server scripts  
+
+## Contributing
+
+Feel free to submit issues or pull requests to improve the repository. Your contributions are welcome!
+
+## License
+
+Specify your license here (e.g., MIT License).
+
+---
+
+For questions or support, please open an issue on GitHub.
+
