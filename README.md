@@ -89,8 +89,7 @@ Feel free to fork the project and submit pull requests with improvements, new sc
 
 ---
 
-## 📄 License
-Specify your license here (e.g., MIT License).
+
 
 
 
